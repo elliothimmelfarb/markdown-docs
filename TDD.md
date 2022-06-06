@@ -51,9 +51,13 @@ Requirements:
 - Only display `<OptedOutIcon />` if both icons could be displayed. 
 
 Tests:
+	
 	✓ does not render icons for full communication household and parent
+	
 	✓ renders NoValidEmailIcon if parent does not have valid email
+	
 	✓ renders OptedOutIcon when household is set to "doNotContact"
+	
 	✓ does not render NoValidEmailIcon when household is set to "doNotContact"
 
 #### Show Quick Sample
